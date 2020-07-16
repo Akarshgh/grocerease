@@ -1,15 +1,13 @@
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://unpkg.com/datocms-plugins-sdk"></script>
-    <link href="https://unpkg.com/datocms-plugins-sdk/dist/sdk.css" media="all" rel="stylesheet" />
-
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <script src="https://unpkg.com/datocms-plugins-sdk"></script>
+  <link href="https://unpkg.com/datocms-plugins-sdk/dist/sdk.css" media="all" rel="stylesheet" />
 </head>
 <body>
-    <input type="text" />
-    <script type="text/javascript">
+  <input type="text" />
+  <script type="text/javascript">
     DatoCmsPlugin.init(function(plugin) {
       const input = document.querySelector("input");
       plugin.startAutoResizer()
